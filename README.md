@@ -4,7 +4,7 @@
 
 In the project directory, please run:
 
-### `npm instll`
+### `npm install`
 
 Please run npm install once for the first time.
 
