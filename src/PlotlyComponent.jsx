@@ -6,10 +6,10 @@ function PlotlyComponent({xValues, yValues, firstPeak, secondPeak}) {
     console.log({yValues}.yValues);
     
     //Set the firstPeak and seconfPek to empty in case empty.
-    if (secondPeak.length == 0) {
+    if (secondPeak.length === 0) {
       secondPeak = "";
     }
-    if (firstPeak.length == 0) {
+    if (firstPeak.length === 0) {
       firstPeak = "";
     }
 

@@ -1,15 +1,12 @@
-import react, {useState} from 'react';
-import {useRef} from 'react';
+import {useState} from 'react';
 import * as XLSX from 'xlsx';
 import PlotlyComponent from "./PlotlyComponent";
-import Plot from "react-plotly.js"
 
 export const ExcelImportComponent = () => {
     const [xValues, setxValues] = useState([]);
     const [yValues, setyValues] = useState([]);
     const [firstPeak, setFirstPeak] = useState([]);
     const [secondPeak, setSecondPeak] = useState([]);
-    const plotContainer = useRef(null);
 
     const handleFile = async (e) => {
         const file = e.target.files[0];
